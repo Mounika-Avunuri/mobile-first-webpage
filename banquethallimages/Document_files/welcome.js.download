@@ -1,0 +1,58 @@
+console.log("1000+2000")
+//its a string data type
+/**
+ * primitive data types
+ * number
+ * string
+ * undefined
+ * boolean
+ */
+var x = 000;
+var y = "mounika";
+var z = 'pravalika';
+var m = true;
+var n;
+var decimaladdition = 100 + 8.9999;
+var abc = null;
+//value of n is undefined variable is declared
+console.log("the type of x is", typeof (x))
+console.log("the type of y is", typeof (y))
+console.log("the type of z is", typeof (z))
+console.log("the type of m is", typeof (m))
+console.log("the type of n is", typeof (n), n)
+console.log(decimaladdition, decimaladdition.toFixed(2))
+console.log(typeof (null), typeof (abc))
+console.log(Math.ceil(3.009))
+console.group(Math.floor(3.999))
+console.log(Math.min(1,2,3,4,5,6,-1,-2,-3))
+console.log(Math.max(1,3,5,6,7,8,9,19))
+console.log(Math.abs(-10))
+var myArr=[]
+var myArr1=["abc",123,true,false,"def",1,2]
+console.log("printing myArr and myArr1 elements",myArr,myArr1,myArr1[0],myArr1[1])
+
+let obj={
+    name:"mounika",
+    rollno:"11RK1A0502",
+    techstack:[123,456,"abc"],
+    trainingmode:{
+        weekdays:true,
+        weekend:false
+    }
+
+}
+console.log(obj.name,obj.rollno)
+console.log("obj==>",obj)
+
+let teckstack={
+    123:{
+        hjsdk:"jsdjkkd",
+        jhskdk:"ksdls",
+        ssd:[11,33,33]
+    },
+    456:{
+        sas:44545,
+        dfjkdkf:"jtkk",
+    }
+}
+console.log("obj==>",teckstack)
